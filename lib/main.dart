@@ -1,11 +1,10 @@
 import 'package:ai_bot/pages/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gemini/flutter_gemini.dart';
 
-const apiKey = 'AIzaSyBXuP2zWkD8ZieMFOGwV8p_OS6yAB6a8lg';
+// const apiKey = 'AIzaSyBXuP2zWkD8ZieMFOGwV8p_OS6yAB6a8lg';
 void main() {
   runApp(const MyApp());
-  Gemini.init(apiKey: apiKey);
+  // Gemini.init(apiKey: apiKey);
 }
 
 class MyApp extends StatelessWidget {
